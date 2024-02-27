@@ -84,6 +84,7 @@ foreach ( $content_sources as $key => $content_source ) {
 	echo '</div>';
 	$ea_key++;
 }
+
 if ( $eap_schema_markup ) {
 	echo '<script type="application/ld+json">
 	{
