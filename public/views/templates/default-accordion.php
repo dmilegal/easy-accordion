@@ -32,6 +32,7 @@ foreach ( $content_sources as $key => $content_source ) {
 	$content_embed = str_replace( ']]>', ']]&gt;', $content );
 	global $wp_embed;
 	$content_embed = $wp_embed->autoembed( $content_embed );
+	
 	if ( $eap_autop ) {
 		$content_embed = wpautop( $content_embed );
 	}
