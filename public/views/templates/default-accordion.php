@@ -110,7 +110,6 @@ if ( $eap_schema_markup ) {
 	echo ']
 	}
 	</script>';
-
 }
 
 echo '</div>';
