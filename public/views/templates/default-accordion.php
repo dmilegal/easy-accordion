@@ -69,6 +69,7 @@ foreach ( $content_sources as $key => $content_source ) {
 			'<div class="ea-body">No Content</div>'
 		);
 	}
+	
 	echo '<div class="ea-card ' . esc_attr( $expand_class . ' ' . $accordion_item_class ) . '">';
 		echo sprintf(
 			'<p class="ea-header"><a class="collapsed" data-sptoggle="spcollapse" %1$s href="javascript:void(0)" %5$s aria-expanded="%4$s">%2$s %3$s</a></p>',
